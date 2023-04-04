@@ -1,0 +1,60 @@
+{
+  "menu": [
+    {
+      "name": "amet donec.",
+      "image": "images/content/food-1.jpg",
+      "price": "550 ₽",
+      "weight": "200 гр",
+      "description": "Placerat id auctor nunc id vel vel curabitur. Urna fames maecenas leo elit diam nibh elit."
+    },
+    {
+      "name": "amet donec.",
+      "image": "images/content/food-2.jpg",
+      "price": "550 ₽",
+      "weight": "500 гр",
+      "description": "Pharetra morbi purus hendrerit risus vel consequat nunc, sed. Pharetra nulla imperdiet."
+    },
+    {
+      "name": "amet donec.",
+      "image": "images/content/food-3.jpg",
+      "price": "550 ₽",
+      "weight": "400 гр",
+      "description": "In mauris, elit nisl sed. Nulla accumsan vestibulum sed velit sagittis quis accumsan."
+    },
+    {
+      "name": "amet donec.",
+      "image": "images/content/food-4.jpg",
+      "price": "550 ₽",
+      "weight": "200 гр",
+      "description": "In cras pharetra aliquet laoreet. Lectus nisi ante felis quam pharetra in maecenas ut felis. "
+    },
+    {
+      "name": "amet donec.",
+      "image": "images/content/food-5.jpg",
+      "price": "550 ₽",
+      "weight": "300 гр",
+      "description": "Elit imperdiet faucibus euismod tortor risus volutpat molestie morbi sed. Porta ac eu."
+    },
+    {
+      "name": "amet donec.",
+      "image": "images/content/food-6.jpg",
+      "price": "550 ₽",
+      "weight": "500 гр",
+      "description": "Leo in arcu in gravida vivamus scelerisque non. Euismod nec amet amet egestas nisl iaculis."
+    },
+    {
+      "name": "amet donec.",
+      "image": "images/content/food-7.jpg",
+      "price": "550 ₽",
+      "weight": "100 гр",
+      "description": "Duis quisque tristique nulla cursus justo, etiam viverra nulla cras. Consectetur eget augue."
+    },
+    {
+      "name": "amet donec.",
+      "image": "images/content/food-8.jpg",
+      "price": "550 ₽",
+      "weight": "300 гр",
+      "description": "Integer dolor et sed tempus non. Adipiscing viverra in viverra quisque pretium. Commodo."
+    }
+  ]
+}

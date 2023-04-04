@@ -1,0 +1,57 @@
+.events
+    display: flex
+    margin: 0 auto
+    justify-content: center
+    &__event
+        background: url('../../images/content/image-1.jpg') no-repeat 100%/cover
+        max-width: 860px
+        width: 860px
+        max-height: 540px
+        padding: 45px 60px
+        display: flex
+        justify-content: flex-start
+        align-items: flex-end
+
+    &-event__title
+        max-width: 620px
+        text-align: left
+        &::before
+            content: 'since 1996'
+            left: 0
+            transform: none
+
+    &__list
+        margin-left: 20px
+
+    &-list__tab
+        border: none
+        border-radius: 5px 5px 0 0
+        width: 50%
+        padding: 10px
+        font-family: $font-main
+        font-weight: 700
+        color: $white
+        text-transform: uppercase
+        background-color: $bg-orange
+        cursor: pointer
+        &:not(.events-list__tab--active)
+            opacity: 0.5
+        &--active
+            opacity: 1
+
+    &-list__table
+        display: grid
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: 1fr 1fr
+        grid-gap: 20px
+        background-color: $bg-orange
+        padding: 35px
+
+    &-list__item
+        max-width: 160px
+        heigth: 200px
+
+    &-list-item__img
+        width: 100%
+        object-fit: cover
+        height: auto

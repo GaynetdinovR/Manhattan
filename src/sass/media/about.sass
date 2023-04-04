@@ -1,0 +1,28 @@
+@media screen and (max-width: calc($desktop-size-l2 - 100px))
+    .about-map__iframe
+        width: 470px
+    
+@media screen and (max-width: $desktop-size-m1)
+    .about-map__iframe
+        min-width: 400px 
+        height: 655px
+        max-width: 600px 
+        
+@media screen and (max-width: $desktop-size-s2)
+    .about__wrap
+        flex-direction: column
+    .about__map
+        margin-top: 20px
+        margin-left: 0
+
+@media screen and (max-width: $phone-size-m2)
+    .about-map__iframe,
+    .about__contacts 
+        min-width: 280px
+        width: 280px
+
+@media (min-width: $phone-size-m2) and (max-width: $tablet-size-s1)
+    .about-map__iframe,
+    .about__contacts 
+        min-width: 380px
+        width: 380px

@@ -1,8 +1,9 @@
 {
-  "name": "project",
+  "name": "manhattan",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "gulp": "gulp",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
@@ -18,7 +19,15 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
+    "eslint-plugin-vue": "^8.0.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-svgmin": "^4.1.0",
+    "sass": "^1.59.3"
   },
   "eslintConfig": {
     "root": true,
