@@ -1,0 +1,101 @@
+.equipment
+    margin-top: 150px
+    &__title
+        &::before
+            content: 'Top “Manhattan” party'
+            min-width: 200px
+
+    &__wrap
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 80px auto 0
+        max-width: 1080px
+
+    &__personnel
+        display: grid
+        grid-template-rows: 100px 1fr
+        grid-template-columns: 1fr 1fr
+        grid-gap: 50px 25px
+        max-width: 525px
+
+    &__item
+        margin: 20px 0
+
+    &__button
+        text-align: left
+        min-width: 500px
+
+        &:not(.equipment__button--active)
+            background-color: rgba($orange, 0.1) 
+
+        &--active .equipment-item__list
+            display: block
+        
+        &:hover
+            opacity: 1
+
+    &-item
+
+        &__title
+            text-transform: uppercase
+            display: flex
+            align-items: center
+            justify-content: space-between
+
+        &__list
+            display: none
+            list-style-type: disc
+            padding: 20px 
+            max-width: 100%
+
+        &__item
+            margin: 10px 0
+        
+        &__arrow--active
+            transform: rotate(180deg)
+
+
+    &-personnel
+
+        &__title
+            grid-column: span 2
+            text-transform: uppercase
+            text-align: center
+            max-width: 400px
+
+        &__person
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+
+        &-person__img-wrap
+            max-width: 200px
+
+        &-person__img
+            width: 100%
+            height: auto
+            border-radius: 5px
+            object-fit: cover
+
+        &-person__name
+            text-transform: uppercase
+            text-align: center
+            max-width: 100px
+
+        &-person__contacts
+            display: flex
+            justify-content: space-between 
+            align-items: center
+
+        &-person__btn
+            padding: 5px 8px
+            display: flex
+            justify-content: center 
+            align-items: center
+            margin: 15px
+            & img
+                max-width: 20px
+                height: auto
+                object-fit: contain

@@ -1,0 +1,47 @@
+@media screen and (max-width: calc($desktop-size-l2 - 190px))
+    .kitchen-menu__menu
+        grid-gap: 40px
+
+@media screen and (max-width: calc($desktop-size-l2 - 360px))
+    .kitchen-menu__menu
+        grid-template-columns: 1fr 1fr 
+        grid-template-rows: 60px  1fr
+    .kitchen-menu__arrow-right
+        grid-row: 1 
+        grid-column: 2 
+
+@media screen and (max-width: calc($tablet-size-m1 + 50px))
+    .kitchen-menu__menu-col:nth-of-type(1)
+        grid-column: span 2
+
+    .kitchen-menu__menu-col:nth-of-type(2)
+        display: none
+
+@media screen and (min-width: $phone-size-m1)
+    .kitchen-menu-item__price
+        right: 0
+        top: 0
+
+@media screen and (max-width: $phone-size-m1)
+    .kitchen-menu__menu
+        grid-template-columns: 1fr 1fr 
+        grid-template-rows: 1fr
+
+    .kitchen-menu__menu-col
+        grid-gap: 30px
+
+    .kitchen-menu-item__img-wrap
+        min-width: 60px
+        height: 60px
+        align-self: flex-start
+        
+    .kitchen-menu-item__img
+        max-width: 100%
+
+    .kitchen-menu-item__price
+        left: -95px
+        bottom: 0
+
+    .kitchen-menu__arrow-left,
+    .kitchen-menu__arrow-right
+        display: none

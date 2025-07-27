@@ -1,0 +1,42 @@
+@media screen and (max-width: calc($tablet-size-l2 + 30px))
+    .events-list__tab
+        font-size: 10px
+
+    .events-list__table
+        padding: 10px
+        grid-gap: 10px
+
+@media screen and (max-width: $tablet-size-m1)
+    .events
+        flex-direction: column
+        justify-content: center
+        align-items: center
+
+    .events__list
+        margin-left: 0
+        max-width: 400px
+        margin-top: 20px
+        
+    .events__event
+        max-width: 360px
+        padding: 20px
+
+    .events__event-title
+        max-width: 360px
+
+    .events-list__table
+        grid-gap: 20px
+
+@media screen and (max-width: $phone-size-m1)
+    .events__list
+        max-width: 260px
+        
+    .events__event
+        max-width: 260px
+        padding: 20px
+
+    .events__event-title
+        max-width: 260px
+
+    .events-list__table
+        grid-gap: 10px

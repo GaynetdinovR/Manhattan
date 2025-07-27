@@ -1,0 +1,58 @@
+.header
+    padding-top: 30px
+    padding-bottom: 30px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    max-width: 1980px
+    margin: 0 auto
+    &__logo
+        width: 160px
+
+    &-nav__list
+        display: flex
+
+    &-nav-list__item
+        margin: 0 15px
+
+    &__menu-btn
+        display: none
+        flex-direction: column
+        background-color: transparent
+        border: none
+        position: relative
+
+        & div
+            width: 40px
+            height: 3px
+            background-color: $white
+            margin: 5px 0
+            transition: 300ms
+
+        &--change
+            width: 40px 
+            height: 15px
+
+            & div
+                background-color: $orange
+                position: absolute
+                left: 0
+                opacity: 1
+                top: 0
+
+            & div:nth-child(1)
+                transform: rotate(45deg)
+
+            & div:nth-child(2)
+                transform: rotate(-45deg)
+
+            & div:nth-child(3)
+                opacity: 0
+
+
+.logo
+
+    &__img
+        max-width: 100%
+        height: auto
+        object-fit: contain
